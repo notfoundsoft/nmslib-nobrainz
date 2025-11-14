@@ -1,6 +1,12 @@
-[![Pypi version](https://img.shields.io/pypi/v/nmslib.svg)](http://pypi.python.org/pypi/nmslib)
-[![Downloads](https://pepy.tech/badge/nmslib)](https://pepy.tech/project/nmslib)
-[![Downloads](https://pepy.tech/badge/nmslib/month)](https://pepy.tech/project/nmslib)
+[![PyPI version](https://img.shields.io/pypi/v/nmslib-nobrainz.svg)](https://pypi.org/project/nmslib-nobrainz)
+[![Downloads](https://pepy.tech/badge/nmslib-nobrainz)](https://pepy.tech/project/nmslib-nobrainz)
+
+
+This is a compatibility build of NMSLIB providing prebuilt wheels for Linux aarch64
+(manylinux) and macOS arm64 (Apple Silicon). No feature changes. Upstream project:
+https://github.com/nmslib/nmslib . Licensed under Apache-2.0 with notices preserved.
+
+---
 
 # Non-Metric Space Library (NMSLIB) 
 

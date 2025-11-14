@@ -193,11 +193,11 @@ class BuildExt(build_ext):
         build_ext.build_extensions(self)
 
 setup(
-    name='nmslib',
+    name='nmslib-nobrainz',
     version=__version__,
     description='Non-Metric Space Library (NMSLIB)',
     author='B. Naidan, L. Boytsov, Yu. Malkov, B. Frederickson, D. Novak, et al.',
-    url='https://github.com/nmslib/nmslib',
+    url='https://github.com/notfoundsoft/nmslib',
     long_description="""Non-Metric Space Library (NMSLIB) is an efficient cross-platform
  similarity search library and a toolkit for evaluation of similarity search methods. 
  The goal of the project is to create an effective and comprehensive toolkit for searching 
@@ -210,4 +210,10 @@ setup(
     setup_requires=dep_list,
     cmdclass={'build_ext': BuildExt},
     zip_safe=False,
+    project_urls={
+        'Upstream (nmslib)': 'https://github.com/nmslib/nmslib',
+        'Issues (this fork)': 'https://github.com/notfoundsoft/nmslib/issues',
+    },
+    maintainer='notfoundsoft',
+    maintainer_email='notfoundsoft@gmail.com',
 )
